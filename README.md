@@ -15,14 +15,14 @@ Las transacciones fraudulentas representan menos del 0,13% del total de operacio
 ```
 Fraud_detection/
 │
-├── data/
-│   └── AIML Dataset.csv          # Dataset original
-│
 ├── fraud_detection.ipynb         # Notebook: análisis, entrenamiento y exportación del modelo
 ├── fraud_detection.py            # Aplicación Streamlit
 ├── fraud_detection_pipeline.pkl  # Pipeline entrenado (generado por el notebook)
+├── .gitignore                    # Excluye el CSV del repositorio por su tamaño
 └── README.md
 ```
+
+> **Nota:** el dataset no está incluido en el repositorio por superar el límite de tamaño de GitHub (100 MB). Descárgalo desde [Kaggle](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset) y colócalo en una carpeta `data/` con el nombre `AIML Dataset.csv` antes de ejecutar el notebook.
 
 ---
 
